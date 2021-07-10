@@ -3,7 +3,9 @@ import {CinemaComponent} from "./cinema/cinema.component";
 import {NgModule} from "@angular/core";
 
 
-const routes: Routes = [{path: "cinema", component: CinemaComponent}
+const routes: Routes = [
+  {path: "cinema", component: CinemaComponent},
+
 ];
 
 @NgModule({
